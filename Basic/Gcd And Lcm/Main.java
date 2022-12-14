@@ -14,7 +14,7 @@ import java.util.*;
         while (n1%n2 != 0 ) {    // untill two number when divsible gives 0
             int rem =n1%n2;      // rem = non zero   or  rem = 0 (if zero loop will not execute i.e gcd will be one of that number [smaller])8%32 ->rem 8 non zero
                                   // n1 =32 and n2 rem i.e 8 now rem = 0 
-                                  // for 
+                                  // for 12 15 -> 12% 15 -> rem/n2 =12 ,n1 =15 -> 15%12 -> rem/n2 = 3 ,n1= 12 -> 12%3 -> rem = 0 stops n2=? -> 3=gcd
             n1=n2;               //
             n2=rem;          
         }
