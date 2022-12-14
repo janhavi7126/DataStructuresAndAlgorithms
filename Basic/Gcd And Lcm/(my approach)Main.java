@@ -25,8 +25,8 @@ import java.util.*;
             if (n1%i==0 && n2%i==0){   // if both are divisble     2 | 8    32
                                                                //  2 | 4    16
                GCD = GCD * i;         // 1* the number             2 | 2     8
-               n1 = n1/i;             // divide by that number     2 | 1     4
-               n2 = n2/i;             // divide                    2 * 2 * 2 * 2=16 = GCD common 
+               n1 = n1/i;             // divide by that number       | 1     4
+               n2 = n2/i;             // divide                    2 * 2 * 2 = 8 = GCD common 
                i--;                   // to see if i++ i-- same number is divisible 
               
             }
